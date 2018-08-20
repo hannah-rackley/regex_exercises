@@ -35,4 +35,5 @@ console.assert(checkLink('http://facebook/mysite.html?q=hello') === false, "That
 
 
 //Regex code for searching through html for List of Community Episodes at https://en.wikipedia.org/wiki/List_of_Community_episodes#Season_1_(2009%E2%80%9310)
+//Use $2$3: $4 to get the results formatted nicely.
 let regex = /left">"(<a href="[^"]+" title="[^"]+">([^<]+)<\/a>)?([^<"]+)?"<\/td>[^#]+#[^>]+>[^(]+\(<span class="bday dtstart published updated">([^<]+)/
